@@ -1,0 +1,1 @@
+web: bin/ad_zh
