@@ -8,6 +8,12 @@ import (
 	"github.com/jadilet/ad_zh/session"
 )
 
+// ViewData send data to html template
+type ViewData struct {
+	Error string
+	Data  string
+}
+
 func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	sess, err := store.Get(r, "cookie-user")
 	if err != nil {
@@ -23,6 +29,15 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	tpl.ExecuteTemplate(w, "login.tmpl", "")
+}
+
+func forgotPageHandler(w http.ResponseWriter, r *http.Request) {
+	tpl.ExecuteTemplate(w, "forgot.tmpl", "")
+}
+
+func resetPageHandler(w http.ResponseWriter, r *http.Request) {
+	viewData := ViewData{Error: "", Data: r.URL.Query().Get("token")}
+	tpl.ExecuteTemplate(w, "reset.tmpl", viewData)
 }
 
 func registerPageHandler(w http.ResponseWriter, r *http.Request) {

@@ -11,5 +11,6 @@ CREATE TABLE users (
     telephone varchar(100) NULL,
     full_name  varchar(255) NULL,
     image_url varchar(255) NULL,
+    token varchar(255) NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );

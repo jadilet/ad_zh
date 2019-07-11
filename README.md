@@ -1,4 +1,4 @@
-## AD_ZH
+# AD_ZH
 
 # Set environment variables
 
@@ -12,4 +12,10 @@ export MYSQL_DB_HOST=SET_YOUR_DB_HOST
 export MYSQL_DB_PORT=3306
 export PORT=SET_YOUR_PORT
 export COOKIE_SECRET_KEY=YOUR_ANY_GENERATED_SECRET_KEY
+```
+
+# Mailgun username and password set environment value
+
+```
+
 ```

@@ -43,6 +43,8 @@ func New(env *models.Env) http.Handler {
 	mux.HandleFunc("/register", registerPageHandler).Methods("GET")
 	mux.HandleFunc("/profile", profilePageHandler).Methods("GET")
 	mux.HandleFunc("/profile/edit", profileEditPageHandler).Methods("GET")
+	mux.HandleFunc("/forgot", forgotPageHandler).Methods("GET")
+	mux.HandleFunc("/reset", resetPageHandler).Methods("GET")
 
 	// Authentication
 	mux.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
@@ -58,6 +60,15 @@ func New(env *models.Env) http.Handler {
 	// Profile
 	mux.HandleFunc("/profile/edit", func(w http.ResponseWriter, r *http.Request) {
 		editProfile(w, r, env)
+	}).Methods("POST")
+
+	// Forgot
+	mux.HandleFunc("/forgot", func(w http.ResponseWriter, r *http.Request) {
+		forgot(w, r, env)
+	}).Methods("POST")
+
+	mux.HandleFunc("/reset", func(w http.ResponseWriter, r *http.Request) {
+		reset(w, r, env)
 	}).Methods("POST")
 
 	return mux
