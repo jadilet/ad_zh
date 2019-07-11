@@ -9,6 +9,18 @@
 			"revisionTime": "2019-07-02T19:49:18Z"
 		},
 		{
+			"checksumSHA1": "GFCSxp+N669T31OCBXuBRcX82MA=",
+			"path": "github.com/dchest/authcookie",
+			"revision": "fbdef6e998665bcb27a2227f39d840dbfc62a918",
+			"revisionTime": "2012-09-17T13:53:55Z"
+		},
+		{
+			"checksumSHA1": "m9/cG6Vu3s2YDMfh0WIW7xa0UA8=",
+			"path": "github.com/dchest/passwordreset",
+			"revision": "642cf836ac8dfd4ddec7a28cbef7b00da0807812",
+			"revisionTime": "2012-07-23T10:22:25Z"
+		},
+		{
 			"checksumSHA1": "zGYOyUB58GVhLkrwhG1ut66SPec=",
 			"path": "github.com/go-sql-driver/mysql",
 			"revision": "877a9775f06853f611fb2d4e817d92479242d1cd",
@@ -31,6 +43,12 @@
 			"path": "github.com/gorilla/sessions",
 			"revision": "4355a998706e83fe1d71c31b07af94e34f68d74a",
 			"revisionTime": "2019-07-09T14:04:13Z"
+		},
+		{
+			"checksumSHA1": "ciW5j8+JnW7CAc6XIz2riNU5kAg=",
+			"path": "github.com/jordan-wright/email",
+			"revision": "3ea4d25e7cf84fe656d10353672a0eba4b919b6d",
+			"revisionTime": "2019-02-18T02:44:54Z"
 		},
 		{
 			"checksumSHA1": "oCH3J96RWvO8W4xjix47PModpio=",
