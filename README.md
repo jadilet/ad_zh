@@ -17,5 +17,6 @@ export COOKIE_SECRET_KEY=YOUR_ANY_GENERATED_SECRET_KEY
 # Mailgun username and password set environment value
 
 ```
-
+export MAILGUN_USERNAME=YOUR_USERNAME
+export MAILGUN_PASSWORD=YOUR_PASSWORD
 ```
