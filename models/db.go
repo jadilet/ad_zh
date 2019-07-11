@@ -22,8 +22,11 @@ func InitDB() (*sql.DB, error) {
 	dbDriver := "mysql"
 	dbUser := os.Getenv("MYSQL_DB_USER")
 	dbPass := os.Getenv("MYSQL_DB_PASS")
+	dbHost := os.Getenv("MYSQL_DB_HOST")
+	dbPort := os.Getenv("MYSQL_DB_PORT")
 
-	db, err = sql.Open(dbDriver, fmt.Sprintf("%s:%s@/%s", dbUser, dbPass, dbName))
+	// <username>:<pw>@tcp(<HOST>:<port>)/<dbname>
+	db, err = sql.Open(dbDriver, fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbUser, dbPass, dbHost, dbPort, dbName))
 
 	if err != nil {
 		log.Panic(err.Error())
