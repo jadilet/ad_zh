@@ -23,7 +23,7 @@ import (
 const oauthGoogleURLAPI = "https://www.googleapis.com/oauth2/v2/userinfo?access_token="
 
 var googleOauthConfig = &oauth2.Config{
-	RedirectURL:  "http://localhost:8000/auth/google/callback",
+	RedirectURL:  "https://thawing-ridge-90494.herokuapp.com/auth/google/callback",
 	ClientID:     os.Getenv("GOOGLE_OAUTH_CLIENT_ID"),
 	ClientSecret: os.Getenv("GOOGLE_OAUTH_CLIENT_SECRET"),
 	Scopes:       []string{"https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email"},
