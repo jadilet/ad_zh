@@ -31,8 +31,6 @@ export_presets.cfg
 # vendor/
 
 ### Go Patch ###
-/vendor/
-/Godeps/
 .env
 
 ad_zh

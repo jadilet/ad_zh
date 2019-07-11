@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "b1KgRkWqz0RmrEBK6IJ8kOJva6w=",
+			"path": "cloud.google.com/go/compute/metadata",
+			"revision": "335e9e09b93e170ef8b409517495bb988e4f4279",
+			"revisionTime": "2019-07-02T19:49:18Z"
+		},
+		{
+			"checksumSHA1": "zGYOyUB58GVhLkrwhG1ut66SPec=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "877a9775f06853f611fb2d4e817d92479242d1cd",
+			"revisionTime": "2019-05-10T10:23:35Z"
+		},
+		{
+			"checksumSHA1": "2Iy16w6c+4oMD8TtobbO0qsCrDo=",
+			"path": "github.com/gorilla/mux",
+			"revision": "d83b6ffe499a29cc05fc977988d0392851779620",
+			"revisionTime": "2019-07-01T20:26:33Z"
+		},
+		{
+			"checksumSHA1": "FdRzT7f5d5uekrpzlLCKxLIK3wQ=",
+			"path": "github.com/gorilla/securecookie",
+			"revision": "86450627d8e6b88e00ea41f228489b89d08a40de",
+			"revisionTime": "2019-07-07T03:38:17Z"
+		},
+		{
+			"checksumSHA1": "MvAhNXI9Z/zVzuAYjuKLY0PPQO4=",
+			"path": "github.com/gorilla/sessions",
+			"revision": "4355a998706e83fe1d71c31b07af94e34f68d74a",
+			"revisionTime": "2019-07-09T14:04:13Z"
+		},
+		{
+			"checksumSHA1": "oCH3J96RWvO8W4xjix47PModpio=",
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": "4def268fd1a49955bfb3dda92fe3db4f924f2285",
+			"revisionTime": "2019-07-01T08:59:26Z"
+		},
+		{
+			"checksumSHA1": "q+XI9g44wd9mYvf3S5Wo8YZjAus=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "4def268fd1a49955bfb3dda92fe3db4f924f2285",
+			"revisionTime": "2019-07-01T08:59:26Z"
+		},
+		{
+			"checksumSHA1": "aFpql3G+Nw8zkzfqLWQJNZC8pu0=",
+			"path": "golang.org/x/net/context/ctxhttp",
+			"revision": "da137c7871d730100384dbcf36e6f8fa493aef5b",
+			"revisionTime": "2019-06-28T18:40:41Z"
+		},
+		{
+			"checksumSHA1": "uRlaEkyMCxyjj57KBa81GEfvCwg=",
+			"path": "golang.org/x/oauth2",
+			"revision": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
+			"revisionTime": "2019-05-07T23:52:07Z"
+		},
+		{
+			"checksumSHA1": "w5SmJwdVFlGE1KO4/AQjY+jvdsI=",
+			"path": "golang.org/x/oauth2/google",
+			"revision": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
+			"revisionTime": "2019-05-07T23:52:07Z"
+		},
+		{
+			"checksumSHA1": "rnUL+5Yzlt+Ky2dlB61VqfhBOb8=",
+			"path": "golang.org/x/oauth2/internal",
+			"revision": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
+			"revisionTime": "2019-05-07T23:52:07Z"
+		},
+		{
+			"checksumSHA1": "huVltYnXdRFDJLgp/ZP9IALzG7g=",
+			"path": "golang.org/x/oauth2/jws",
+			"revision": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
+			"revisionTime": "2019-05-07T23:52:07Z"
+		},
+		{
+			"checksumSHA1": "HGS6ig1GfcE2CBHBsi965ZVn9Xw=",
+			"path": "golang.org/x/oauth2/jwt",
+			"revision": "0f29369cfe4552d0e4bcddc57cc75f4d7e672a33",
+			"revisionTime": "2019-05-07T23:52:07Z"
+		}
+	],
+	"rootPath": "github.com/jadilet/ad_zh"
+}
